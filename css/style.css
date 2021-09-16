@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+}
+
+/*=========== Navbar start ============*/
+.navbar{
+    background-color: #000;
+    
+}
+.navbar .active{
+    border-left: 2px solid rgb(104, 99, 99);
+    padding-left: 5px;
+}
+.nav-link{
+    margin-right: 8px;
+    text-transform: uppercase;
+}
+/*=============== Navbar end ==============*/
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption{
+    padding-bottom: 20px;
+}
+/*============= Carousel end =================*/
+#heading-section{
+    background-image: url("../img/lights.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#heading-section .dark-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/*============ heading section end =============*/
+#video-play-section{
+    background-image: url("../img/media.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#video-play-section .dark-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+#video-play-section .text-danger{
+    color: rgb(255, 0, 0) !important;
+}
+/*=============== index page end ================*/
+#about-banner-section{
+    background-image: url("../img/image1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+/*=================== about section end ===================*/
+#service-banner-section{
+    background-image: url("../img/image2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+/*================= services section end =================*/
+#blog-banner-section{
+    background-image: url("../img/image3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+#contact-banner-section{
+    background-image: url("../img/image1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+
+footer{
+    background-color: #000;
+}
+
+@media(max-width:320px){
+    .carousel-caption{
+        padding-bottom: 0;
+    }
+}
